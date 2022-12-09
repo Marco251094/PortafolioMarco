@@ -1,0 +1,46 @@
+
+.body {
+    background-color:dimgrey
+}
+.seccion{
+    width:70%; background-color: #7e8891; float:left; margin: 25px;
+    font-family: 'Times New Roman', Times, serifs;
+
+}
+#menu
+{
+ background-color: rgb(117, 153, 153) !important;
+ font-family: 'Times New Roman', Times, serif !important;
+ margin: 10px !important;
+ padding: 15px !important;
+}
+ .cardhead{
+    font-family: 'Times New Roman', Times, serif;
+
+
+ }
+.card-text{
+    font-family: 'Times New Roman', Times, serif;
+}
+.proyectos{
+   
+    display: flex;
+}
+.card1{
+    background-color:rgb(117, 153, 153)!important;
+    text-align: justify ;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 10px;
+    padding: 15px;
+    
+    
+}
+
+.card2{
+    background-color:rgb(117, 153, 153)!important;
+    text-align: justify;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 10px;
+    padding: 15px;  
+}
+
