@@ -1,46 +1,108 @@
 
 .body {
-    background-color:dimgrey
+    background-color:rgb(250, 250, 250)
+    
+}
+.cuerpo{
+    display: grid;
+    place-content: center;   
 }
 .seccion{
-    width:70%; background-color: #7e8891; float:left; margin: 25px;
+    width:100%;
+    height: 100%;
+     background-color: #d1d3d4;  margin: 25px;
     font-family: 'Times New Roman', Times, serifs;
+    border: 5px;
+display: grid;
+place-content: center;
+border-radius: 2%;
+margin: 10px;
+padding: 15px;
+}
+#menu{
+    background-color: #d1d3d4 !important;
+}
+.nav-ul-s {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+
+.nav-ul-s  li a {
+    color: var(--negro);
+    font-size: 1rem;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 500;
+
+    background:
+        linear-gradient(to right,
+            rgba(255, 255, 255, 0.5),
+            rgba(255, 255, 255, 0.5)),
+            
+        linear-gradient(to right,
+        
+            rgb(0, 0, 0),
+            rgb(0, 0, 0));
+
+    background-size: 100% 2px, 0 2px;
+    background-position: 100% 100%, 0 100%;
+    background-repeat: no-repeat;
+    transition: background-size 400ms;
 
 }
-#menu
-{
- background-color: rgb(117, 153, 153) !important;
- font-family: 'Times New Roman', Times, serif !important;
- margin: 10px !important;
- padding: 15px !important;
+.nav-ul-s li a:hover {
+    color: var(--negro);
+    background-size: 0 2px, 100% 2px;
 }
+
  .cardhead{
     font-family: 'Times New Roman', Times, serif;
-
-
  }
 .card-text{
     font-family: 'Times New Roman', Times, serif;
 }
+
+.card{
+    background-color: #d1d3d4 !important;
+}
 .proyectos{
    
     display: flex;
+    
 }
 .card1{
-    background-color:rgb(117, 153, 153)!important;
+    background-color:rgb(255, 255, 255);
     text-align: justify ;
     font-family: 'Times New Roman', Times, serif;
     margin: 10px;
     padding: 15px;
-    
+    box-shadow: 0 1px 1px rgb(0, 0, 0);
+  cursor: default;
+  transition: all 400ms ease;
+    border-radius: 1%;
     
 }
+.card1:hover{
+    box-shadow: 5px 5px 20px rgb(0, 0, 0.45);
+    transform: translateY(-3%);
+    }
 
-.card2{
-    background-color:rgb(117, 153, 153)!important;
-    text-align: justify;
-    font-family: 'Times New Roman', Times, serif;
-    margin: 10px;
-    padding: 15px;  
+
+
+
+
+.card-img-top{
+    width: 200px;
+    height: 200px;
+    
 }
-
+#foto{
+    width: 100%;
+    height: 100%;  
+}
+.btn-primary {
+    background-color: rgb(170, 186, 190) !important;
+    color: black !important;
+    
+  }
